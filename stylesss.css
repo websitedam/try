@@ -1,0 +1,390 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  
+  }
+
+
+ 
+ 
+  
+header {
+    background-color: #122531;
+    color: #fff;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+
+   
+  }
+    .header-container {
+      display: flex; /* Usa flexbox para organizar los elementos en línea */
+      align-items: center; /* Centra verticalmente los elementos */
+    }
+
+    .logo {
+      max-width: 160px; /* Ancho máximo del logotipo */
+      height: auto; /* Mantener proporciones */
+    }
+
+    .company-name {
+      margin-left: 20px; /* Espacio entre el logotipo y el nombre de la empresa */
+     font-size: 60px ; /* Tamaño del texto del nombre de la empresa */
+      font-weight: bold; /* Texto en negrita */
+    }
+   
+  .svs {
+     color: #555;
+    font-weight: lighter;
+  }
+  
+ 
+  
+  main {
+    padding: 20px;
+    width: 100%;
+    display: flex; /* Usa flexbox para alinear elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Alinea los elementos en columna */
+    
+  }
+  
+  div .sobrenosotros {
+    margin-bottom: 30px;
+  }
+  
+  div.solu {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  div.solu:hover {
+    transform: scale(1.05);
+  }
+  
+  div.solu h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  div.solu p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .cotain {
+    text-align: center; /* Centra horizontalmente */
+}
+
+.cotain h2 {
+    font-size: 2.5em; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 20px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    
+    display: inline-block; /* Permite animaciones */
+   
+}
+
+  .text-focus-in {
+    -webkit-animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+ .enlaces div a {
+  text-decoration: none;
+  list-style: none;
+  font-size: larger;
+  font-weight: 900;
+  font-size: 28px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+ }
+ .enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.enlaces div {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateY(0);
+  transition: 0.3s;
+  background-color: #f8f8f8;
+}
+
+.enlaces div:hover {
+  transform: translateY(-5px);
+}
+ 
+.carta a:hover{
+  color: #000000;
+}
+.enlaces img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Estilos para los enlaces a redes sociales */
+.redes-sociales {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 15px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 5 10px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.redes-sociales a:hover {
+  color: #00af0f; /* Cambia el color al pasar el mouse */
+}
+
+
+ 
+
+/* Estilos para la sección "Sobre Nosotros" */
+.sobre-nosotros {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nosotros h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.sobre-nosotros p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Estilos generales */
+.slider-container {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+ 
+.slider-container {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 1.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+/* Ajusta la velocidad del slider cambiando el valor de transition en .slides */
+ 
+
+.csl {
+  text-align: center;
+  background: none;
+  font-size: large;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  margin: 20px;
+  padding: 10px;
+  max-width: 70%;
+}
+.cls h1  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+ 
+
+
+ 
+/* Estilos para la sección de precios */
+.faq {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+.question-label {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.answer {
+  padding: 10px;
+  display: none;
+}
+
+.toggle {
+  display: none;
+}
+
+.toggle:checked + .question-label + .answer {
+  display: block;
+}
+ 
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+ 
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+ 
